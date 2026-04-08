@@ -1,0 +1,88 @@
+{
+  "appName": "SafeHer",
+  "tagline": "Your Safety, Our Priority",
+  "nav": {
+    "home": "Home",
+    "report": "Report",
+    "sos": "SOS",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "map": "Safety Map",
+    "myReports": "My Reports",
+    "volunteer": "Volunteer"
+  },
+  "auth": {
+    "loginTitle": "Welcome Back",
+    "registerTitle": "Create Account",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "loginBtn": "Sign In",
+    "registerBtn": "Sign Up",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  },
+  "report": {
+    "title": "Submit Anonymous Report",
+    "description": "Description",
+    "descPlaceholder": "Describe the incident...",
+    "abuseType": "Type of Abuse",
+    "location": "Location",
+    "media": "Upload Evidence (optional)",
+    "submit": "Submit Report",
+    "success": "Report submitted successfully",
+    "types": {
+      "physical": "Physical",
+      "verbal": "Verbal",
+      "sexual": "Sexual",
+      "domestic": "Domestic",
+      "cyber": "Cyber",
+      "stalking": "Stalking",
+      "other": "Other"
+    }
+  },
+  "sos": {
+    "title": "Emergency SOS",
+    "subtitle": "Press the button to send an emergency alert with your live location",
+    "button": "SEND SOS",
+    "sending": "Sending...",
+    "sent": "SOS Alert Sent!",
+    "sentMessage": "Your location has been shared with emergency contacts and nearby NGOs."
+  },
+  "dashboard": {
+    "title": "NGO Dashboard",
+    "reports": "Reports",
+    "sosAlerts": "SOS Alerts",
+    "flaggedAreas": "Flagged Areas",
+    "status": "Status",
+    "filter": "Filter",
+    "all": "All",
+    "pending": "Pending",
+    "reviewed": "Reviewed",
+    "resolved": "Resolved",
+    "active": "Active",
+    "markResolved": "Mark Resolved",
+    "noReports": "No reports found",
+    "noAlerts": "No SOS alerts",
+    "noFlagged": "No flagged locations"
+  },
+  "map": {
+    "title": "Safety Map",
+    "yourLocation": "Your Location",
+    "flaggedZone": "Flagged Zone",
+    "policeStation": "Police Station"
+  },
+  "home": {
+    "hero": "Empowering Women's Safety",
+    "heroSub": "Report anonymously. Get help instantly. Stay safe.",
+    "feature1Title": "Anonymous Reporting",
+    "feature1Desc": "Submit abuse reports securely and anonymously",
+    "feature2Title": "SOS Emergency",
+    "feature2Desc": "One-click alert with live location sharing",
+    "feature3Title": "Safety Map",
+    "feature3Desc": "View flagged areas and nearby police stations"
+  }
+}
