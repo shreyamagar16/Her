@@ -77,7 +77,7 @@ export default function Dashboard() {
 
   return (
     <div className="max-w-7xl mx-auto py-8 px-4">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">{t("dashboard.title")}</h2>
+      <h2 className="text-2xl font-bold text-[#3b0764] mb-6">{t("dashboard.title")}</h2>
 
       {/* Tabs */}
       <div className="flex gap-2 mb-6 flex-wrap">
@@ -87,7 +87,7 @@ export default function Dashboard() {
             onClick={() => setTab(item.key)}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition ${
               tab === item.key
-                ? "bg-purple-700 text-white"
+                ? "bg-[#3b0764] text-white"
                 : "bg-white text-gray-700 hover:bg-purple-50 border"
             }`}
           >
@@ -118,7 +118,7 @@ export default function Dashboard() {
                     onClick={() => setStatusFilter(s)}
                     className={`px-3 py-1 rounded text-xs font-medium transition ${
                       statusFilter === s
-                        ? "bg-purple-700 text-white"
+                        ? "bg-[#3b0764] text-white"
                         : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                     }`}
                   >
@@ -254,7 +254,7 @@ export default function Dashboard() {
 
           {/* Map Tab */}
           {tab === "map" && (
-            <div className="h-[500px] rounded-xl overflow-hidden shadow-lg">
+            <div className="h-[60vh] min-h-[320px] max-h-[600px] rounded-xl overflow-hidden shadow-lg">
               <MapView
                 center={[20.5937, 78.9629]}
                 flaggedLocations={flagged}
